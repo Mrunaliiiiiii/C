@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 int main(){
-    int age = 2;
+    int age = 22;
 
     // Simple If Statement 
     // if(age>18){
@@ -39,17 +39,19 @@ int main(){
 
 
 // Nested If Else 
-int weight = 5;
-// if(age>18){
-//      if(weight>50){
-//           printf("Allowed Blood Donation");
-//      }
-//      else{
-//           printf("Not Allowed For Blood Donation weight criteria");
+int weight = 55;
+if(age>18)
+{
+         if(weight>50){
+             printf("can donate Blood ");
+     }else{
+             printf("cannot donate Blood due to weight ");
+         }
+     }else{
+             printf("cannot donate Blood due to age criteria");}
 
-//      }
-// }else{
-//           printf("Not Allowed For Blood Donation Age criteria");
+     
 
-// }
+   
+
 }

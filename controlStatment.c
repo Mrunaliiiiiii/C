@@ -5,7 +5,7 @@ int main(){
     int i=1;
 // Break 
     // for(i=1;i<=10;i++){
-    //     printf("%d\n",i);
+    //     printf("%d\n",i); zzzzzzzz
     //     if(i==5){
     //         break;
     //     }

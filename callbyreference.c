@@ -8,7 +8,7 @@ void change(int num) {
 int main() {    
     int x=100;    
     printf("Before function call x=%d \n", x);    
-    change(x);//passing value in function    
+    change(x);   
     printf("After function call x=%d \n", x);    
 return 0;  
 }    

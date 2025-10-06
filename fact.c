@@ -2,7 +2,7 @@
 int main(){
 
 
-int ans = fact(-3);
+int ans = fact(5);
 printf("%d",ans);
 }
 
